@@ -1,76 +1,64 @@
-# ✈️ Flight Price Prediction Agent & Data Science Web App
+# 🤖 Multi-Project Data Science & AI Portfolio
 
-An end-to-end Data Science and Machine Learning web application powered by **Python, Pandas, Scikit-Learn, and Streamlit**. This project features an autonomous predictive agent that estimates flight ticket prices in real-time, provides market analytics, and delivers intelligent booking recommendations.
-
----
-
-## 🌟 Features
-
-1. **🎫 Real-Time Price Predictor UI**:
-   - Interactive inputs for Airline, Source, Destination, Total Stops, Journey Date, Departure Time, and Duration.
-   - Real-time price estimation with upper/lower bounds confidence intervals.
-   - Autonomous AI agent recommendation engine (*Great Deal*, *Fair Price*, or *Premium Warning*).
-
-2. **📊 Market Analytics & EDA**:
-   - Visualizes average pricing trends across different airlines and stop counts.
-   - Exploratory data analysis (EDA) charts and dataset inspection viewer.
-
-3. **🤖 Autonomous Agent Insights**:
-   - Booking window optimization and duration-vs-price correlation analysis.
-
-4. **⚙️ Model Diagnostics**:
-   - Displays Random Forest Regressor hyperparameters, test set performance ($R^2$ Score: `0.7832`), and feature importances.
+Welcome to my portfolio repository containing end-to-end Data Science, Machine Learning, and Computer Vision web applications powered by **Python, OpenCV, Scikit-Learn, and Streamlit**.
 
 ---
 
-## 📂 Project Structure
-
-```text
-Flight-Price-Prediction-Agent/
-│
-├── Data_Train.xlsx                     # Historical training dataset
-├── Test_set.xlsx                       # Test dataset
-├── flight_app.py                       # Main Streamlit UI application (runs on port 2001)
-├── train_model.py                      # ML model training script (Random Forest)
-├── requirements.txt                    # Python dependencies
-├── .gitignore                          # Git ignore rules
-└── README.md                           # Project documentation
-```
+## 📋 Table of Contents
+1. [Flight Price Prediction Agent](#-flight-price-prediction-agent--data-science-web-app)
+2. [PAN Card Tampering & Fraud Detection App](#-pan-card-tampering--fraud-detection-app)
 
 ---
 
-## 🚀 Getting Started & Installation
+## ✈️ 1. Flight Price Prediction Agent & Data Science Web App
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/YOUR_USERNAME/Flight-Price-Prediction-Agent.git
-cd Flight-Price-Prediction-Agent
-```
+An end-to-end Data Science and Machine Learning web application that estimates flight ticket prices in real-time, provides market analytics, and delivers intelligent booking recommendations.
 
-### 2. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
+### 🌟 Features
+- **🎫 Real-Time Price Predictor UI**: Interactive inputs for Airline, Source, Destination, Total Stops, Journey Date, Departure Time, and Duration with confidence intervals.
+- **📊 Market Analytics & EDA**: Visualizes average pricing trends across different airlines and stop counts.
+- **🤖 Autonomous Agent Insights**: Booking window optimization and duration-vs-price correlation analysis.
+- **⚙️ Model Diagnostics**: Displays Random Forest Regressor hyperparameters and feature importances.
 
-### 3. Train the Model (Optional - pre-trained artifacts included)
-```bash
-python train_model.py
-```
-
-### 4. Run the Streamlit App (Port 2001)
+### 🚀 Running the Flight App (Port 2001)
 ```bash
 streamlit run flight_app.py --server.port 2001 --server.address 127.0.0.1
 ```
-Open your browser at **`http://127.0.0.1:2001`**.
+🌐 **URL:** `http://127.0.0.1:2001`
 
 ---
 
-## 🧠 Machine Learning Core
-- **Algorithm**: Random Forest Regressor ($n\_estimators = 100$)
-- **Preprocessing**: Label Encoding for categorical features, time feature extraction (day, month, hour, minute), and custom duration parsing.
-- **Performance**: Test Set $R^2$ Score = `0.7832`
+## 🔍 2. PAN Card Tampering & Fraud Detection App
+
+A Computer Vision and Image Processing web application designed to verify authenticity and detect structural tampering, modifications, or fraud in PAN card documents.
+
+### 🌟 Features
+- **🛡️ SSIM & OpenCV Engine**: Compares structural similarity, fonts, and alignment between reference (original) and target PAN cards.
+- **🟥 Visual Difference Mapping**: Automatically highlights altered or tampered regions with red bounding boxes.
+- **📊 Similarity Scoring**: Outputs real-time similarity percentages and determines whether the card is **Authentic ✅** or **Tampered ❌**.
+
+### 🚀 Running the PAN App (Port 2002)
+```bash
+streamlit run pan_app.py --server.port 2002 --server.address 127.0.0.1
+```
+🌐 **URL:** `http://127.0.0.1:2002`
+
+---
+
+## 🛠️ Installation & Setup
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Vishuu77/Machine-Learning-Data-Science-Projects-.git
+   cd Machine-Learning-Data-Science-Projects-
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ---
 
 ## 📄 License
-This project is open-source under the MIT License.
+Open-source under the MIT License.
