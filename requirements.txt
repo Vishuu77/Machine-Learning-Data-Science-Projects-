@@ -6,3 +6,6 @@ scikit-image>=0.21.0
 opencv-python>=4.8.0
 imutils>=0.5.4
 openpyxl>=3.1.0
+torch>=2.0.0
+torchvision>=0.15.0
+timm>=1.0.0
