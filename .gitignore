@@ -1,7 +1,14 @@
+# Python caches
 __pycache__/
-.ipynb_checkpoints/
-.streamlit/
 *.pyc
-*.pyo
-*.pyd
-.DS_Store
+.pytest_cache/
+
+# Datasets (too large for GitHub)
+data/
+raw_hf/
+*.parquet
+
+# Runtime outputs
+generated/
+.ocr_tmp/
+.streamlit/
