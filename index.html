@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishnu's AI & Data Science Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-color: #0e1117;
+            --card-bg: #1a1d29;
+            --accent-color: #00E5A0;
+            --text-main: #ffffff;
+            --text-dim: #a0a0a0;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            padding: 60px 0;
+            background: radial-gradient(circle at center, #1a3a32 0%, #0e1117 100%);
+        }
+        h1 {
+            font-size: 3rem;
+            color: var(--accent-color);
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--text-dim);
+            margin-bottom: 30px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+        .card {
+            background: var(--card-bg);
+            border: 1px solid #30363d;
+            border-radius: 15px;
+            padding: 25px;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            border-color: var(--accent-color);
+        }
+        .card h3 {
+            color: var(--accent-color);
+            margin-top: 0;
+            font-size: 1.4rem;
+        }
+        .card p {
+            color: var(--text-dim);
+            font-size: 0.95rem;
+            flex-grow: 1;
+        }
+        .card .tech-stack {
+            margin: 15px 0;
+            font-size: 0.8rem;
+            font-weight: bold;
+            color: #888;
+        }
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: #0e1117;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            text-align: center;
+            transition: opacity 0.2s;
+        }
+        .btn:hover {
+            opacity: 0.9;
+        }
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-dim);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🤖 AI & Data Science Portfolio</h1>
+            <p class="subtitle">Showcasing 11 End-to-End ML & Computer Vision Projects</p>
+            <a href="https://github.com/Vishuu77/Machine-Learning-Data-Science-Projects-" class="btn">View Full GitHub Repo</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="grid">
+            <!-- Project 1 -->
+            <div class="card">
+                <h3>✈️ Flight Price Prediction</h3>
+                <p>Estimates ticket prices in real-time with market analytics and intelligent recommendations.</p>
+                <div class="tech-stack">Random Forest | Scikit-Learn | Streamlit</div>
+                <a href="https://github.com/Vishuu77/Machine-Learning-Data-Science-Projects-/blob/main/flight_app.py" class="btn">View Code</a>
+            </div>
+            <!-- Project 2 -->
+            <div class="card">
+                <h3>🔍 PAN Card Fraud Detection</h3>
+                <p>Detects structural tampering and fraud in PAN card documents using SSIM.</p>
+                <div class="tech-stack">OpenCV | Image Processing | Streamlit</div>
+                <a href="https://github.com/Vishuu77/Machine-Learning-Data-Science-Projects-/blob/main/pan_app.py" class="btn">View Code</a>
+            </div>
+            <!-- Project 3 -->
+            <div class="card">
+                <h3>🐶 Dog Breed Classifier</h3>
+                <p>Deep learning app to classify dog breeds with confidence scores and care stats.</p>
+                <div class="tech-stack">ResNet-18 | PyTorch | timm</div>
+                <a href="https://github.com/Vishuu77/Machine-Learning-Data-Science-Projects-/blob/main/dog_app.py" class="btn">View Code</a>
+            </div>
+            <!-- Project 4 -->
+            <div class="card">
+                <h3>🖼️ Image Watermarking</h3>
+                <p>Apply custom text or logo watermarks with opacity and rotation controls.</p>
+                <div class="tech-stack">Pillow (PIL) | Image Compositing</div>
+                <a href="https://github.com/Vishuu77/Machine-Learning-Data-Science-Projects-/tree/main/01_image_watermark" class="btn">View Code</a>
+            </div>
+            <!-- Project 5 -->
+            <div class="card">
+                <h3>🚦 Traffic Sign Classification</h3>
+                <p>Real-time classification of German traffic signs using a custom CNN.</p>
+                <div class="tech-stack">PyTorch | CNN | GTSRB Dataset</div>
+                <a href="https://github.com/Vishuu77/Machine-Learning-Data-Science-Projects-/tree/main/02_traffic_sign" class="btn">View Code</a>
+            </div>
+            <!-- Project 6 -->
+            <div class="card">
+                <h3>🔤 Text Extraction (OCR)</h3>
+                <p>Extract text from images using EasyOCR with advanced preprocessing.</p>
+                <div class="tech-stack">EasyOCR | OpenCV | Streamlit</div>
+                <a href="https://github.com/Vishuu77/Machine-Learning-Data-Science-Projects-/tree/main/03_text_extraction" class="btn">View Code</a>
+            </div>
+            <!-- Project 7 -->
+            <div class="card">
+                <h3>🌱 Plant Disease Prediction</h3>
+                <p>Diagnose leaf diseases from photos with treatment guidance.</p>
+                <div class="tech-stack">Custom CNN | PyTorch | PlantVillage</div>
+                <a href="https://github.com/Vishuu77/Machine-Learning-Data-Science-Projects-/tree/main/04_plant_disease" class="btn">View Code</a>
+            </div>
+            <!-- Project 8 -->
+            <div class="card">
+                <h3>🚗 Vehicle Detection</h3>
+                <p>YOLOv8 based vehicle counting and detection for images and videos.</p>
+                <div class="tech-stack">YOLOv8 | Ultralytics | Computer Vision</div>
+                <a href="https://github.com/Vishuu77/Machine-Learning-Data-Science-Projects-/tree/main/05_vehicle_detection" class="btn">View Code</a>
+            </div>
+            <!-- Project 9 -->
+            <div class="card">
+                <h3>🔄 Face Swapping App</h3>
+                <p>Advanced face swapping using MediaPipe landmarks and affine transformations.</p>
+                <div class="tech-stack">MediaPipe | OpenCV | Blending</div>
+                <a href="https://github.com/Vishuu77/Machine-Learning-Data-Science-Projects-/tree/main/06_face_swap" class="btn">View Code</a>
+            </div>
+            <!-- Project 10 -->
+            <div class="card">
+                <h3>⚡ DS & ML Compiler</h3>
+                <p>Interactive sandbox to upload data, train models, and run Python DS scripts live.</p>
+                <div class="tech-stack">Scikit-Learn | Pandas | Streamlit</div>
+                <a href="https://github.com/Vishuu77/Machine-Learning-Data-Science-Projects-/tree/main/07_ds_compiler_app" class="btn">View Code</a>
+            </div>
+            <!-- Project 11 -->
+            <div class="card">
+                <h3>🗣️ Multilingual TTS Studio</h3>
+                <p>Convert text to speech for 7 languages with custom tones and speed controls.</p>
+                <div class="tech-stack">gTTS | pyttsx3 | SAPI5</div>
+                <a href="https://github.com/Vishuu77/Machine-Learning-Data-Science-Projects-/tree/main/08_tts_indian_languages" class="btn">View Code</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 Vishnu | Built with AI & Python
+    </footer>
+</body>
+</html>
