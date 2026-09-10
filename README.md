@@ -1,6 +1,6 @@
 # 🤖 Multi-Project Data Science & AI Portfolio
 
-Welcome to my portfolio repository containing **9 end-to-end** Data Science, Machine Learning, and Computer Vision web applications powered by **Python, OpenCV, Scikit-Learn, PyTorch, Ultralytics YOLO, and Streamlit**.
+Welcome to my portfolio repository containing **11 end-to-end** Data Science, Machine Learning, and Computer Vision web applications powered by **Python, OpenCV, Scikit-Learn, PyTorch, Ultralytics YOLO, and Streamlit**.
 
 ---
 
@@ -11,13 +11,15 @@ Welcome to my portfolio repository containing **9 end-to-end** Data Science, Mac
 2. [PAN Card Tampering & Fraud Detection App](#-pan-card-tampering--fraud-detection-app)
 3. [Dog Breed Prediction App](#-dog-breed-prediction-app)
 
-**Course Projects (6 subfolders):**
+**Course Projects (8 subfolders):**
 4. [Image Watermarking App](./01_image_watermark)
 5. [Traffic Sign Classification](./02_traffic_sign)
 6. [Text Extraction (OCR) App](./03_text_extraction)
 7. [Plant Disease Prediction](./04_plant_disease)
 8. [Vehicle Detection & Counting](./05_vehicle_detection)
 9. [Face Swapping App](./06_face_swap)
+10. [Data Science & ML Compiler App](./07_ds_compiler_app)
+11. [Multilingual Indian Languages TTS App](./08_tts_indian_languages)
 
 ---
 
